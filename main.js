@@ -53,6 +53,7 @@ function fazerPergunta() {
    // sumir a resposta depois de 3 segundos
    setTimeout(function() {
       elementoResposta.style.opacity = 0;
+      inputPergunta.value = "";
       btnPergunta.removeAttribute("disabled");
    }, 5000);
 }
